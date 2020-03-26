@@ -13,8 +13,8 @@ Or you can provide custom room name:
 
 You can also set Jitsi URL in case that you have self-hosted Jitsi:
 ![Alt text](https://cloud.appmodule.net/s/HkkQbYnNebcy5Rn/preview "Settings")
-## DOwnload
-Download plugin [HERE]()
+## Download
+Download plugin [HERE](https://cloud.appmodule.net/s/t5yNZqobggfb7ei)
 
 ## Build
 You can build plugin with:
