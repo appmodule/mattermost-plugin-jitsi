@@ -1,0 +1,27 @@
+{
+  "id": "net.appmodule.mattermost-jitsi-plugin",
+  "name": "Jitsi meeting",
+  "description": "Jitsi meeting slash command.",
+  "version": "0.1.8",
+  "min_server_version": "5.12.0",
+  "server": {
+    "executables": {
+      "linux-amd64": "server/dist/plugin-linux-amd64",
+      "darwin-amd64": "server/dist/plugin-darwin-amd64",
+      "windows-amd64": "server/dist/plugin-windows-amd64.exe"
+    }
+  },
+  "settings_schema": {
+    "header": "",
+    "footer": "",
+    "settings": [
+      {
+        "key": "JitsiURL",
+        "display_name": "Jitsi URL",
+        "type": "text",
+        "help_text": "The URL for a self-hosted Jitsi server. For example, https://meet.yourserver.com. Leave blank if you're using Jitsu SaaS service. In that case it will be used https://meet.jit.si",
+        "placeholder": "https://meet.jit.si"
+      }
+    ]
+  }
+}
