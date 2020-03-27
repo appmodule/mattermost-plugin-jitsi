@@ -14,8 +14,8 @@ Or you can provide custom room name:
 You can also set Jitsi URL in case that you have self-hosted Jitsi:
 ![Alt text](https://cloud.appmodule.net/s/HkkQbYnNebcy5Rn/preview "Settings")
 ## Download and install
-Download plugin [HERE](https://github.com/appmodule/mattermost-plugin-jitsi/releases)
-You can install it by following instructions [HERE](https://docs.mattermost.com/administration/plugins.html#custom-plugins)
+Download plugin [HERE](https://github.com/appmodule/mattermost-plugin-jitsi/releases).
+You can install it by following instructions [HERE](https://docs.mattermost.com/administration/plugins.html#custom-plugins).
 
 ## Build
 You can build plugin with:
