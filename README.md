@@ -1,5 +1,5 @@
 # Mattermost Jitsi Plugin
-
+## Usage
 Mattemost slash command to create [Jitsi](https://meet.jit.si/) Meeting Room. Usage:
 ```
 /jitsi
