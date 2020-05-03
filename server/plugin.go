@@ -85,7 +85,7 @@ func (p *JitsiPlugin) executeCommand(args *model.CommandArgs) *model.CommandResp
 		Props: model.StringInterface{
 			"attachments": []*model.SlackAttachment{{
 				AuthorName: "jitsi",
-				AuthorIcon: "http://is3.mzstatic.com/image/thumb/Purple128/v4/33/0f/99/330f99b7-4e02-4990-ab79-d3440c4237be/source/512x512bb.jpg",
+				AuthorIcon: "/plugins/net.appmodule.mattermost-jitsi-plugin/public/jitsi-logo.jpg",
 				Title:      fmt.Sprintf("Click here to join the meeting: %s.", room),
 				TitleLink:  titleLink,
 				Text:       text,
